@@ -31,7 +31,7 @@ public class CatHouse
 
     // MODIFY this so that it prints each Cat's age next to its name
     // e.g. Cat 1's Name: Petunia, Age: 3
-    public String toString()
+    public String houseInfo()
     {
         String str = "Welcome to " + owner + "'s Cat House!\n";
         str += "Cat 1's Name: " + cat1.getName() + "\n";

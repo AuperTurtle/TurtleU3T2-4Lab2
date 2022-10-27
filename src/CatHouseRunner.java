@@ -4,9 +4,10 @@ public class CatHouseRunner {
         Cat turtle = new Cat("Turtle", 1);
         Cat axolotl = new Cat("Axolotl", 2);
 
-        CatHouse animalHouse = new CatHouse(turtle, axolotl, "Tony");
+        CatHouse animalHouse = new CatHouse(turtle, axolotl, "Bob");
 
-        System.out.println(animalHouse.)
+        System.out.println(animalHouse.houseInfo());
+        animalHouse.rollCall();
 
     }
 }
